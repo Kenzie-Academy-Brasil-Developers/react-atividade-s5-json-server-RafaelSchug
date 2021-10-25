@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "email": "username@mail.com",
+      "password": "$2a$10$hB8vvzVd6n0IojetLkGPremAlLgvh/CcmpkGVlclLPQePzzFymdH.",
+      "name": "username",
+      "id": 1
+    },
+    {
+      "email": "kenziedev@mail.com",
+      "password": "$2a$10$uM1JnTFSwrG09moa.lvS0.GYauBn9/VSteV8tTE5tpmKOLSkb1nVG",
+      "name": "kenziedev",
+      "id": 2
+    }
+  ],
+  "posts": [
+    {
+      "message": "Não é falta de café, nem tequila. É meu código, que não compila.",
+      "author": "username",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "message": "Antes do software poder ser reutilizável ele primeiro tem de ser utilizável.",
+      "author": "kenziedev",
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "message": "Hello, World.",
+      "author": "kenziedev",
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "message": "A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.",
+      "author": "username",
+      "userId": 1,
+      "id": 4
+    }
+  ]
+}
