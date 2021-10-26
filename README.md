@@ -60,6 +60,10 @@ Para efetuar login, informe o email e senha utilizados no registro:
 
 :exclamation:**Auth:** É necessário informar o token de autenticação no header.
 
+#### header
+
+**authorization** `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJuYW1lQG1haWwuY29tIiwiaWF0IjoxNjM1MjA3NDY5LCJleHAiOjE2MzUyMTEwNjksInN1YiI6IjEifQ.FcV5W9eAqQ_pEDe8g_h84eixIPlEqBEUK7b8gYUgPMQ`
+
 ![Obter usuários](/assets/get-users.png "Obter usuários")
 
 - - -
@@ -69,6 +73,10 @@ Para efetuar login, informe o email e senha utilizados no registro:
 - /posts/
 
 :exclamation:**Auth:** É necessário informar o token de autenticação no header.
+
+#### header
+
+**authorization** `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJuYW1lQG1haWwuY29tIiwiaWF0IjoxNjM1MjA3NDY5LCJleHAiOjE2MzUyMTEwNjksInN1YiI6IjEifQ.FcV5W9eAqQ_pEDe8g_h84eixIPlEqBEUK7b8gYUgPMQ`
 
 Para criar um novo post/mensagem, informe no corpo da requisição:
 
@@ -103,7 +111,11 @@ Para criar um novo post/mensagem, informe no corpo da requisição:
 
 ### Atualizar um post/mensagem específica: (PATCH)
 
-:exclamation:**Auth:** É necessário informar o token de autenticação no header.
+:exclamation:**Authorization** bearer token
+
+#### header
+
+**authorization** `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJuYW1lQG1haWwuY29tIiwiaWF0IjoxNjM1MjA3NDY5LCJleHAiOjE2MzUyMTEwNjksInN1YiI6IjEifQ.FcV5W9eAqQ_pEDe8g_h84eixIPlEqBEUK7b8gYUgPMQ`
 
 Para atualizar uma mensagem, informe o id da mensagem, com o corpo da requisição no seguinte formato:
 
