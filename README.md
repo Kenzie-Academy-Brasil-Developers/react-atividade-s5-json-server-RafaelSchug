@@ -58,7 +58,7 @@ Para efetuar login, informe o email e senha utilizados no registro:
 
 - /users/
 
-**Auth:** É necessário informar o token de autenticação no header.
+:exclamation:**Auth:** É necessário informar o token de autenticação no header.
 
 ![Obter usuários](/assets/get-users.png "Obter usuários")
 
@@ -68,7 +68,7 @@ Para efetuar login, informe o email e senha utilizados no registro:
 
 - /posts/
 
-**Auth:** É necessário informar o token de autenticação no header.
+:exclamation:**Auth:** É necessário informar o token de autenticação no header.
 
 Para criar um novo post/mensagem, informe no corpo da requisição:
 
@@ -103,7 +103,7 @@ Para criar um novo post/mensagem, informe no corpo da requisição:
 
 ### Atualizar um post/mensagem específica: (PATCH)
 
-**Auth:** É necessário informar o token de autenticação no header.
+:exclamation:**Auth:** É necessário informar o token de autenticação no header.
 
 Para atualizar uma mensagem, informe o id da mensagem, com o corpo da requisição no seguinte formato:
 
