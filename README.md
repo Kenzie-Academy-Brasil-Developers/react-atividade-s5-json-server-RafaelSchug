@@ -34,7 +34,7 @@ Para criar um novo usuário, informe no corpo da requisição:
     }
 ```
 
-![Criar nova conta](https://raw.githubusercontent.com/Kenzie-Academy-Brasil-Developers/react-atividade-s5-json-server-RafaelSchug/main/assets/register.png?token=ALGDUMW6WGAQUW2MC4B5JTTBQCDXQ "Criar nova conta")
+![Criar nova conta](/assets/register.png "Criar nova conta")
 
 - - -
 
@@ -50,7 +50,7 @@ Para efetuar login, informe o email e senha utilizados no registro:
         "password": "123456"
   }
 ```
-![Efetuar login](https://raw.githubusercontent.com/Kenzie-Academy-Brasil-Developers/react-atividade-s5-json-server-RafaelSchug/main/assets/login.png?token=ALGDUMW2FA2ZQUB5OEI6P6DBQCEPQ "Efetuar login")
+![Efetuar login](/assets/login.png "Efetuar login")
 
 - - -
 
@@ -81,7 +81,7 @@ Para criar um novo post/mensagem, informe no corpo da requisição:
     }
 ```
 
-![Criar nova mensagem](https://raw.githubusercontent.com/Kenzie-Academy-Brasil-Developers/react-atividade-s5-json-server-RafaelSchug/main/assets/newMessage.png?token=ALGDUMX4SAY5F66MBXTWOJ3BQCD54 "Criar nova mensagem")
+![Criar nova mensagem](/assets/newMessage.png "Criar nova mensagem")
 
 - - -
 
@@ -89,7 +89,7 @@ Para criar um novo post/mensagem, informe no corpo da requisição:
 
 - /posts/
 
-![Obter todas as mensagens](https://raw.githubusercontent.com/Kenzie-Academy-Brasil-Developers/react-atividade-s5-json-server-RafaelSchug/main/assets/get-all-posts.png?token=ALGDUMSUWZE7FQ4D2CL6EZTBQCEKQ "Obter todas as mensagens")
+![Obter todas as mensagens](/assets/get-all-posts.png "Obter todas as mensagens")
 
 - - -
 
@@ -97,7 +97,7 @@ Para criar um novo post/mensagem, informe no corpo da requisição:
 
 - /posts/?author=username
 
-![Obter todas as mensagens especificas](https://raw.githubusercontent.com/Kenzie-Academy-Brasil-Developers/react-atividade-s5-json-server-RafaelSchug/main/assets/posts-by-user.png?token=ALGDUMTJAAL7KPUS4CNQUY3BQCENI "Obter todas as mensagens especificas")
+![Obter todas as mensagens especificas](/assets/posts-by-user.png "Obter todas as mensagens especificas")
 
 - - -
 
@@ -115,5 +115,5 @@ Para atualizar uma mensagem, informe o id da mensagem, com o corpo da requisiç�
     }
 ```
 
-![Atualizar mensagem específica](https://raw.githubusercontent.com/Kenzie-Academy-Brasil-Developers/react-atividade-s5-json-server-RafaelSchug/main/assets/update-post.png?token=ALGDUMQESCPGMVT2CDLXA4TBQCEF2 "Atualizar mensagem específica")
+![Atualizar mensagem específica](/assets/update-post.png "Atualizar mensagem específica")
   
