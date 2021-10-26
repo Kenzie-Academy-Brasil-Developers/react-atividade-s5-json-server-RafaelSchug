@@ -37,6 +37,12 @@
       "author": "username",
       "userId": 1,
       "id": 4
+    },
+    {
+      "message": "This is a new message created by username :D.",
+      "author": "username",
+      "userId": 1,
+      "id": 5
     }
   ]
 }
