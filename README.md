@@ -54,6 +54,16 @@ Para efetuar login, informe o email e senha utilizados no registro:
 
 - - -
 
+### Obter a lista de todos os usuários: (GET)
+
+- /users/
+
+**Auth:** É necessário informar o token de autenticação no header.
+
+![Obter usuários](/assets/get-users.png "Obter usuários")
+
+- - -
+
 ### Criar Novo post/mensagem (POST)
 
 - /posts/
